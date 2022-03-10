@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z} | sed 's/oo//g' | tr " " "\n" | sed -r '/^\s*$/d'
+echo {a..z}{a..z} | grep -v "oo" | tr " " "\n" 
