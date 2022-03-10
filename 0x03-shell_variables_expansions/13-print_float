@@ -1,2 +1,3 @@
 #!/bin/bash
-echo $NUM="%.2f"
+export NUM="%.2f"
+echo $NUM
